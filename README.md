@@ -2,7 +2,9 @@ https://hksx.github.io/Mobile-Friendly-Web-Page-website/
 
 
 **Open Chrome DevTools (Ctrl + Shift + I or Cmd + Option + I).**
-Resize the browser in Chrome to see how it behaves on mobile
+
+Resize the browser in Chrome to see how it behaves on mobile(110)
+
 **Use the Device Toolbar (the mobile/tablet icon at the top left) to simulate various mobile devices.**
 
 **Mobile-Friendly-Web-Page-website**
