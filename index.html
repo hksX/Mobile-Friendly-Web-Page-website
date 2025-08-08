@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile-Friendly Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>HKS WEB</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2>Welcome to the Future of Web Design</h2>
+    <p>Your gateway to responsive, mobile-friendly websites</p>
+    <button><a href="#services">Get Started</a></button>
+  </section>
+
+  <!-- Services Section -->
+  <section class="main-content" id="services">
+    <div class="content-card">
+      <a href="#about">
+        <!-- Image from Google -->
+        <img src="https://www.gstatic.com/webp/gallery/1.jpg" alt="Service 1">
+        <h3>Creative Solutions</h3>
+        <p>We deliver top-notch designs that work on any device.</p>
+      </a>
+    </div>
+    <div class="content-card">
+      <a href="#about">
+        <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Service 2">
+        <h3>Innovative Approach</h3>
+        <p>We take a unique approach to problem-solving and design.</p>
+      </a>
+    </div>
+    <div class="content-card">
+      <a href="#about">
+        <img src="https://www.gstatic.com/webp/gallery/3.jpg" alt="Service 3">
+        <h3>Seamless User Experience</h3>
+        <p>Our websites ensure an effortless user experience on all devices.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are passionate about creating beautiful and responsive websites that deliver excellent user experiences on all devices. Whether you're on a desktop, tablet, or phone, we ensure seamless usability.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you want to discuss your next web project, feel free to reach out to us!</p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
+  </footer>
+  
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
