@@ -1,9 +1,11 @@
 
 
+
 **Open Chrome DevTools (Ctrl + Shift + I or Cmd + Option + I).**
 **Use the Device Toolbar (the mobile/tablet icon at the top left) to simulate various mobile devices.**
 
-Mobile
+**Mobile-Friendly-Web-Page-website**
+
 **A simple responsive website that adapts to different screen sizes using CSS media queries and a mobile-first design approach.**
 
 **Responsive Website**
